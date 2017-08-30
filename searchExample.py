@@ -1,4 +1,4 @@
-import baiduSearch
+from . import baiduSearch
 
 keyword = input('请输入搜索关键词：')
 
