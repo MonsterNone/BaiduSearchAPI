@@ -11,6 +11,7 @@ elif convey == 'n' or convey == 'N' or not convey:
     results = baiduSearch.search(keyword)
 else:
     print('输入错误')
+    exit(0)
 
 for result in results:
     print('{0} {1} {2} {3} {4}'.format(result.index, result.title, result.abstract, result.show_url, result.url))  # 此处应有格式化输出
