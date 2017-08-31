@@ -40,6 +40,7 @@ convey=True/False (默认为False)
 * abstract 简介
 * show_url 应该是域名
 * url 网址（百度跳转或者实际网址）
+* convey_url() 转换百度链接
 
 ## 例程
 
